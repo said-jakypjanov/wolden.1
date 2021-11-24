@@ -1,0 +1,42 @@
+.meditation{
+  margin-top: 30px;
+  &__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    &-p{
+      width: 997px;
+      height: 73px;
+      left: calc(50% - 997px/2 + 0.5px);
+      top: 799px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: center;
+      color: #757575;
+    }
+  }
+
+  &__carousel{
+
+    &-content{
+
+    }
+    &-text{
+      //width: 171px;
+      //height: 21px;
+      left: calc(50% - 171px/2 - 0.5px);
+      top: 10px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #757575;
+      margin-top: 27px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

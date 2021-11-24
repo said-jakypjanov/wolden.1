@@ -1,0 +1,43 @@
+.makes{
+
+
+  &__block{
+    height: 100vh;
+    width: 100%;
+  }
+
+  &__title{
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #757575;
+    margin: 55px auto 30px;
+  }
+
+  &__carousel{
+
+    &-img{
+      position: relative;
+    }
+
+    &-text{
+      font-size: 14px;
+      line-height: 21px;
+      color: #757575;
+      position: absolute;
+      z-index: 4;
+      top: 346px;
+      padding: 25px 15px;
+      background-color: white;
+      border-radius: 25px;
+      margin: 0 12px;
+    }
+
+  }
+}
+
+.owl-carousel .owl-item .makes__carousel-content{
+  display: block;
+  width: 100%;
+  margin-bottom: 80px;
+}

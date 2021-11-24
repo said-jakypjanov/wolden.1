@@ -1,0 +1,81 @@
+.footer{
+
+  &__title{
+    margin-top: 50px;
+    &-content{
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #9B9B9B;
+    }
+  }
+
+  &__form{
+    &-content{
+      text-align: center;
+    }
+
+    &-email{
+
+    }
+    &-email{
+      border-radius: 46px;
+      border: 1px solid #9B9B9B;
+      text-align: center;
+      padding: 5px 62px;
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 14px;
+      color: #9B9B9B;
+
+
+      &:hover{
+        transition: 0.6s;
+        background-color:  rgba(48, 48, 48, 0.8);
+        border: 1px solid  rgba(48, 48, 48, 0.8);
+        color: black;
+      }
+    }
+
+  }
+
+  &__link{
+    font-size: 14px;
+    line-height: 21px;
+    color: #8C8C8C;
+    position: relative;
+    &:before{
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: #8C8C8C;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      transform: scaleX(0);
+      transition: transform 0.25s;
+    }
+    &:hover:before{
+      transform: scaleX(1);
+      transition: transform 0.25s;
+
+    }
+    &-block{
+      padding: 50px 35px 15px 35px;
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+
+  &__shipping{
+    background-color: #EDEDED;
+    text-align: center;
+    &-text{
+      font-size: 14px;
+      line-height: 21px;
+      color: #3C3C3C;
+      padding: 25px 0;
+    }
+  }
+}
